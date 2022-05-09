@@ -9,7 +9,7 @@ def test_multiply():
 
 @pytest.mark.smoke
 def test_new():
-    assert 1==1
+    assert 1==2
 
 @pytest.mark.smoke
 def test_new2():
@@ -17,7 +17,7 @@ def test_new2():
 
 @pytest.mark.regression
 def test_addition():
-    assert 4 + 4 == 9
+    assert 4 + 5 == 9
 
 @pytest.mark.regression
 def test_subtract():
