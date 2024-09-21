@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 import pytest
 
-print('Hello, World'!)
+print('Hello, World!')
 def login(username, password):
     if username != None: driver.find_element(By.ID, 'user-name').send_keys(username)
     if password != None: driver.find_element(By.NAME, 'password').send_keys(password)
